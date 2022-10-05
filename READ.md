@@ -1,0 +1,55 @@
+# Natours Project
+
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+
+
+
+## Overview
+
+
+
+### Screenshot
+
+![Mobile view of solution](./mobile.png)
+
+![Desktop view of solution](./desktop.png)
+
+### Links
+
+- Live Site URL: [Link to live site](https://z3shan7.github.io/Natours-Projects/)
+
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Float
+- SCSS 
+- browser support
+
+
+### What I learned
+
+there are so many advance properties that i learnt from things this project
+
+- clip path
+- backrgound clip
+- backface-visibility
+- checkbox hack
+- responsive img
+
+
+
+## Author
+
+- Frontend Mentor - [@z3shan7](https://www.frontendmentor.io/profile/z3shan7)
