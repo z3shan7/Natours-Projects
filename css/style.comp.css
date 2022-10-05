@@ -56,6 +56,10 @@ body {
     body {
       padding: 0; } }
 
+::selection {
+  background-color: #55c57a;
+  color: #fff; }
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -838,7 +842,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .navigation__background {
       top: 3.5rem;
-      right: 3.5rem; } }
+      right: 3.1rem; } }
 
 .navigation__nav {
   height: 100vh;
