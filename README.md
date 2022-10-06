@@ -19,9 +19,11 @@
 
 ### Screenshot
 
+![Desktop view of solution](./desktop.png)
+
 ![Mobile view of solution](./mobile.png)
 
-![Desktop view of solution](./desktop.png)
+
 
 ### Links
 
