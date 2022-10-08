@@ -25,7 +25,6 @@
         background-color: #fff;
         box-shadow: 0 2rem 4rem rgba(0, 0, 0, .2);
         border-radius: 3px;
-        display: flex;
         overflow: hidden;
         opacity: 0;
         transform: translate(-50%, -50%) scale(.25);
@@ -39,9 +38,7 @@
     &__left {
         width: 33.33333%;
         display: table-cell;
-        // object-fit: cover;
-        // display: flex;
-        // flex-direction: column;
+
 
     }
 
@@ -115,28 +112,51 @@
 
     @media screen and (max-width:1400px) {
 
-        // .popup {
-        height: 40vh;
-
-
-
-
         &__content {
-
-
-
-
-            // display: flex;
+            width: 80%;
+            display: flex;
             flex-direction: column;
-
-
-
+            height: 70rem;
 
 
         }
 
+        &__left {
+            width: 50%;
+            display: flex;
 
+        }
+
+        &__right {
+            width: 100%;
+            vertical-align: middle;
+            padding: 3rem 5rem;
+
+        }
+
+
+
+
+        @media screen and (max-width:600px) {
+            &__content {
+                width: 90%;
+                height: auto;
+            }
+
+            &__text {
+
+                font-size: 1.2rem;
+                margin-bottom: 2rem;
+                column-count: 1;
+                column-gap: none;
+                column-rule: 1px solid #eee;
+
+
+
+            }
+
+
+        }
     }
 
-    // }
 }
