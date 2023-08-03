@@ -626,7 +626,6 @@ body {
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-    display: flex;
     overflow: hidden;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
@@ -675,10 +674,29 @@ body {
   .popup__close:hover {
     color: #55c57a; }
   @media screen and (max-width: 1400px) {
-    .popup {
-      height: 40vh; }
-      .popup__content {
-        flex-direction: column; } }
+    .popup__content {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      height: 70rem; }
+    .popup__left {
+      width: 50%;
+      display: flex; }
+    .popup__right {
+      width: 100%;
+      vertical-align: middle;
+      padding: 3rem 5rem; } }
+
+@media screen and (max-width: 1400px) and (max-width: 600px) {
+  .popup__content {
+    width: 90%;
+    height: auto; }
+  .popup__text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    column-count: 1;
+    column-gap: none;
+    column-rule: 1px solid #eee; } }
 
 .row {
   max-width: 114rem;
